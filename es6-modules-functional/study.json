@@ -1,0 +1,7 @@
+{
+  "study": {
+    "environment": true,
+    "type": "module",
+    "tests": [".spec.js"]
+  }
+}
