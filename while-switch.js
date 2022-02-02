@@ -18,10 +18,13 @@ while (input === null) {
 // --- check the input and construct a message ---
 
 let message = '';
-if (input !== 'cat') {
-  message = '"' + input + '" is not a cat';
-} else {
-  message = 'thank you for the cat';
+switch (input !== 'cat') {
+  case true:
+    message = '"' + input + '" is not a cat';
+    break;
+  case false:
+    message = 'thank you for the cat';
+    break;
 }
 
 // --- display the message for the user ---
